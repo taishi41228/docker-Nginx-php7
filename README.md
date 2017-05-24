@@ -6,7 +6,7 @@ DockerでNginx+php7-fpmでPHPを動かす
 
 ### ダウンロードする
 
-    git clone ...
+    git clone https://github.com/taishi41228/docker-Nginx-php7.git
 
 ### イメージをビルドする
 
