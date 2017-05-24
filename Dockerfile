@@ -6,6 +6,8 @@ MAINTAINER taishi41228@gmail.com
 RUN rm /etc/nginx/conf.d/default.conf
 RUN rm /usr/share/nginx/html/index.html
 
+# RUN mkdir -p /usr/share/nginx/html/taiyaki.dev
+
 # nginxの設定ファイルをコピーする
 ADD ./etc/nginx/conf.d/default.conf /etc/nginx/conf.d/
 
